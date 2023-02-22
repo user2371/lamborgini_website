@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Impact', sans-serif;
+    src: url(../fonts/impact.woff2);
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    color: #040404;
+    font-size: 15.5307px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 1200px;
+    
+}
+
+.header {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    padding-top: 25px;
+    background: linear-gradient(180deg, #D8D4CA 0%, rgba(217, 217, 217, 0) 100%);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-list {
+    display: flex;
+    column-gap: 40px;
+    padding-top: 25px;
+
+}
+
+.menu-left {
+    padding-left: 15px;
+}
+
+.menu-right {
+    padding-right: 76px;
+}
+
+.menu-link {
+    color: #363636;
+    font-size: 15.5307px;
+}
+
+.promo {
+    background-image: url(../images/promo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: "Impact", sans-serif;
+    font-weight: 400;
+    color: #040404;
+    
+}
+
+.promo__inner {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 97px;
+}
+
+.title {
+    font-size: 76px;
+    line-height: 93px;
+    letter-spacing: 0.02em;
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+
+.subtitle {
+    margin-bottom: 10px;
+    font-size: 48px;
+    border-bottom: 1px solid #040404;
+    align-self: center;
+}
+
+.subtitle span {
+    display: block;
+    font-size: 34px;
+    color: #9F6B08;
+    padding-top: 7px;
+    padding-bottom: 4px;
+}
+
+.promo__text {
+    font-size: 15.5307px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #363636;
+    margin-bottom: 10px;
+}
+
+.promo__arrow {
+    margin-top: auto;
+    margin-bottom: 30px;
+    align-self: center;
+}
